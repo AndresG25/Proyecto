@@ -221,7 +221,7 @@ setTimeout(reload_page, 30000);
         
     })
 
-dbDisconnect(database)
+#dbDisconnect(database)
 
 }
 
