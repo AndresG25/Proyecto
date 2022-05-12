@@ -1,0 +1,14 @@
+name: Proyecto_Prueba
+title: Proyecto_Prueba
+username:
+account: andres25
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6285026
+bundleId: 5897562
+url: https://andres25.shinyapps.io/Proyecto_Prueba/
+when: 1652319862.9676
+lastSyncTime: 1652319862.9676
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|data1.csv|dataBD.log|dataBD.R|Tarea.sh
