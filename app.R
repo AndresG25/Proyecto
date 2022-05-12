@@ -121,13 +121,13 @@ server <- function(input, output) {
 }
 setTimeout(reload_page, 30000);
 ")
-    #url <- 'https://raw.githubusercontent.com/AndresG25/NuevaPrueba/main/data1.csv'
+    url <- 'https://github.com/AndresG25/Proyecto/blob/main/data1.csv'
 
-    #query <- read.csv(url)
+    query <- read.csv(url)
 
-    database<- dbConnect(MySQL(), user="root", host="127.0.0.1", password="", dbname="estacion")
+    #database<- dbConnect(MySQL(), user="root", host="127.0.0.1", password="", dbname="estacion")
   
-    query<- dbGetQuery(database,statement ="SELECT * FROM dataestacion")
+    #query<- dbGetQuery(database,statement ="SELECT * FROM dataestacion")
   
     query1 <- query %>% mutate(Fecha1 = parse_date_time(Fecha, "ymd HMS"))
 
