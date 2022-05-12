@@ -121,7 +121,7 @@ server <- function(input, output) {
 }
 setTimeout(reload_page, 30000);
 ")
-    url <- 'https://github.com/AndresG25/Proyecto/blob/main/data1.csv'
+    url <- 'https://raw.githubusercontent.com/AndresG25/Proyecto/main/data1.csv'
 
     query <- read.csv(url)
 
